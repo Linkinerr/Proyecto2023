@@ -1,0 +1,649 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+
+   background-color: 		#e5e7eb;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 20px;
+}
+
+
+.navbar {
+  grid-area: navbar;
+  background-color: #fff685;
+  padding: 10px 20px;
+
+}
+
+nav ul li {
+  padding: 10px 20px;
+}
+
+
+
+.a {
+  color: whitesmoke;
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  font-size: larger;
+  margin: 12px;
+}
+
+
+
+.iconoig {
+
+width: 50px;
+}
+.Formulario {
+  background-color: white;
+  
+  color: #f5f6f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1, p {
+  font-family: "RobotoSlab-Regular.ttf" sans-serif;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.lista {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin: 12px;
+  font-size: x-large;
+}
+
+.agua {
+  color: #e5eaf5;
+  font-size: large;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.img-1 {
+  width: 20%;
+  
+ 
+}
+
+
+.parrafo {
+  margin-top: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #176585;
+  margin: 0;
+  font-size: xx-large;
+ 
+}
+
+
+
+.h22 {
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  color: black;
+  margin: 0;
+  line-height: 1.10;
+  background-color: white;
+}
+
+parrafo2 {
+  font-family: "RobotoSlab-Regular.ttf", cursive;
+  margin: 0;
+  color: whitesmoke;
+}
+
+.img-2 {
+  width: 16%;
+  margin-left: 75px;
+
+}
+
+
+
+
+.divvv {
+  display: flex;
+  flex-direction:row;
+background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-basis: 100%;
+  font-family: "Gilroy-ExtraBold";
+  font-size: xx-large;
+  flex: 1;
+  padding: 25;
+  line-height: 1.25;
+  box-sizing: border-box;
+
+
+
+
+
+  
+ 
+  
+ 
+
+
+}
+
+.home2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.in-flex2 {
+  flex:1;
+ min-width: 250px;
+ flex: 2;
+ padding: 25px;
+ height: 350px;
+ width: 550px;
+ overflow: hidden;
+ background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-size: x-large;
+    line-height: 1.25;
+    text-align: justify;
+    font-family:"Gilroy-Light";
+    line-height: 1.25;
+}
+
+.in-flex2:first-child {
+  flex: 2;
+  padding: 25px;
+  height: 350px;
+  width: 550px;
+  background-image: url(../imagenes/agua123.png);
+  background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: 0.5s;
+     object-fit: cover;
+     font-family:"Gilroy-Light";
+     line-height: 1.25;
+
+
+
+  
+  
+
+}
+.in-flex2:first-child:hover {
+  transform: scale(1.1);
+}
+
+.in-flex div {
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
+}
+
+.home3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blanchedalmond;
+}
+
+.in-flex3 {
+  flex:1;
+min-width: 250px;
+ flex: 2;
+ padding: 25px;
+ height: 350px;
+ width: 550px;
+ overflow: hidden;
+ background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-size: x-large;
+    line-height: 1.25;
+    text-align: justify;
+    font-family:"Gilroy-Light";
+    line-height: 1.25;
+   
+}
+
+.in-flex3:first-child {
+  flex: 2;
+  padding: 25px;
+  height: 350px;
+  width: 550px;
+
+  background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: 0.5s;
+     object-fit: cover;
+     font-family:"Gilroy-Light";
+     line-height: 1.25;
+
+
+
+  
+  
+
+}
+.in-flex:first-child:hover {
+  transform: scale(1.1);
+}
+
+.in-flex div {
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
+}
+
+.in-flex4 {
+  flex:1;
+ min-width: 250px;
+ flex: 2;
+ padding: 25px;
+
+ overflow: hidden;
+ background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    font-size: x-large;
+    line-height: 1.25;
+    text-align: justify;
+    font-family:"Gilroy-Light";
+    line-height: 1.25;
+   background-image: url(../imagenes/agua321.png);}
+    .in-flex4:first-child {
+      flex: 2;
+  padding: 25px;
+  height: 350px;
+  margin-left: 40px;
+
+  background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: 0.5s;
+     object-fit: cover;
+     font-family:"Gilroy-Light";
+     line-height: 1.25;
+     margin: 0;
+       
+   
+}
+
+.in-flex4:first-child:hover {
+  transform: scale(1.1); }
+@media (max-width:300px){
+  .divvv {
+   flex-direction: column;
+   flex-basis: 100%;
+  }
+}
+
+.productos {
+  font-family: "Montserrat-Black.otf", sans-serif;
+  background-image: linear-gradient(#24252A, black);
+  margin: 0;
+  color: aquamarine;
+}
+
+.lista2 {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin: 12px;
+  font-size: x-large;
+}
+
+
+
+.box {
+  width: 100px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.salud {
+  width: 4vw;
+}
+
+
+.img-3 {
+  width: 20%;
+ margin-left: 55px;
+ 
+}
+
+
+
+.box:hover {
+  width: 1518px;
+  background-image: linear-gradient(#24252A, black);
+}
+
+.col {
+  list-style: none;
+  margin: 0px;
+}
+
+
+.hijo {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+  color: lightcoral;
+}
+
+/* MENU HAMBURGUER MODIFICADO */
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+/* Formulario Practicado en freecodecamp */
+
+Formularioh1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+/* RESPONSIVE */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #c2e4cb;
+}
+
+.in-flex {
+
+  font-family: "Montserrat-Black.otf", sans-serif;
+  font-size: larger;
+  flex-direction: column;
+  
+ 
+}
+
+.conteinerr {
+  background-color: #27b1bf;
+  margin: 0;
+}
+
+.in-flex:first-child {
+  flex: 2;
+  padding: 25;
+
+  margin: 20px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.in-flex div {
+  flex: 1;
+  padding: 25;
+  
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+ 
+}
+/* RESPONSIVE */
+.pb {
+  background-color: #36cecc;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #176585;
+}
+
+/* UTILIZANDO GRID */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+.divv {
+  
+    flex: 2;
+    padding: auto;
+    background-image: url(../imagenes/66.jpg) ;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 650px;
+
+}
+
+.divv2{
+  display: inline-block;
+  flex-direction:row;
+
+  color: black;
+  position: relative;
+margin-left: 50px;
+}
+
+.divv2::after{
+position: absolute;
+top:0px;
+left: 0px;
+content: ' ';
+background-color: orange;
+width: 100%;
+height: 10%;
+filter:blur(25px);
+z-index: -1;
+background: #2c3e50; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #3498db); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.divv2 div {
+
+  flex-basis: 100%;
+  text-align: center;
+  
+ 
+
+
+
+}
+
+@media (max-width:300px){
+  .divv2{flex-direction: column;
+  
+   }
+.divv2 div {
+flex-basis: 100%;
+
+}
+}
+
+
+.h11 {
+  width: 100%;
+  height: 270px;
+  color: white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+
+
+
+}
+
+
+.navbar {
+  grid-area: navbar;
+  background-image: linear-gradient(#24252A, black);
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightcoral;
+}
+
+.main {
+  grid-area: main;
+  
+  color: #15658f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  grid-area: footer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: "header" 120px "navbar" 50px "main" auto "sidebar" 100px "footer" 100px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    /* grid-template-columns: 200px auto;
+    grid-template-rows: 100px 50px auto 100px;
+    grid-template-areas: 
+    "header  header"
+    "navbar  navbar"
+     main"
+    "footer  footer"; */
+    grid-template: "header  header" 50px "navbar  navbar" 40px "main     main" auto "footer  footer" 100px/200px auto;
+  }
+}
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template: "header  header header" 100px "navbar  main   main" auto "footer  footer footer" 100px/200px auto 200px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
